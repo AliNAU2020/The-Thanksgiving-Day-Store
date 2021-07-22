@@ -11,6 +11,44 @@
         <link rel = "stylesheet" href="styles/slicknav.css">
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
         <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_bar').slicknav({prependTo:"#mobile_menu"});
+            });
+        </script>
         
     </head>
+    <body>
+        <header>
+            <img src="images/thanksgivingbanner.jpg" alt="thanksgivingheader" class="src">
+            <section>
+                <h2>The Thanksgiving Store</h2>
+                <h3>A Time for Giving Thanks</h3>
+            </section>
+        </header>
+        <nav id= "mobile_menu"></nav>
+        <nav id="nav_bar">
+            <ul>
+                <li><a href="current" href= "index.html" tabindex="0">Home</a></li>
+                <li><a href = "slides/products/product_list.html">Product List</a></li>
+			    <li><a href = "slides/personal/personal.html">Personal</a></li>
+			    <li><a href = "slides/decorations/index.html">Decorating Ideas</a></li> 
+                <li><a href="email.html">Join Email</a></li>           
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to my site.<br>Please come in and stay awhile.</h1>
+            <p>I started this website because I was born in the month of
+               November, officially the Thanksgiving month. Even though,
+               I don't celebrate Thanksgiving, but I'm thankful for having
+               things I have. Recently, I started selling some of my favorite
+               Thanksgiving products, and they've become a big hit.
+            </p>
+            <p>If you click on Personal link, you can browse my favorite Thanksgiving
+                pictures, movies, and stories. If you join my email list, I will keep you
+                up-to date on all things every Thanksgiving.
+            </p>
+            
+        </section>
+    </body>
 </html>
