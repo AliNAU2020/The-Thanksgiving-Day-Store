@@ -1,5 +1,5 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One' sans-serif;
 }
 
 html{
@@ -7,11 +7,11 @@ html{
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One' sans-serif;
     width: 800px;
     border: 1px solid black;
     box-shadow: 3px 15px 18px 10px black;
-    background: #ed732e;
+    background: #F87127;
 }
 
 body>section{
@@ -22,10 +22,10 @@ body>section{
 header{
     border-bottom: 2px solid black;
     padding: 1em 0em;
-    background-image: -webkit-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: -moz-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: -o-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
+    background-image: -webkit-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
 
 }
 
@@ -39,4 +39,129 @@ header section h2{
 header section h3{
     font-size: 125%;
     line-height: 0;
+}
+
+#nav_bar ul {
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#nav_bar ul li{
+	float: left;
+	padding: 0;
+	width: 20%;
+	}
+
+#nav_bar ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 0.5em 0;
+	font-size: 90%;
+	text-align: center;
+	font-weight: 200;
+}
+
+#nav_bar ul li a.current{
+	color: #F87127;
+}
+
+#nav_bar ul li a:hover, #nav_bar ul li a:focus {
+	background-color: gray;
+}
+
+#nav_bar ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_bar ul ul li{
+	float: none;
+	position: relative;
+	font-size: 90%;
+}
+
+#nav_bar ul li:hover > ul{display:block;}
+
+#nav_bar > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#header_img {
+	float:left;
+	padding: 0.5em 1em;
+	width: 9%;
+	height: auto;
+	min-width: 40px;
+	vertical-align: center;
+	}
+ 
+
+ 
+#nav_vertical{
+	width: 18%;
+	padding-right: 1em;
+	}
+
+#nav_vertical ul{
+	list-style-type: none;
+	margin-left: 0.5em;
+	width: 75%;
+	padding-bottom: 1em;
+}
+
+#nav_vertical ul li{
+	margin-bottom: 0.5em;
+	border: 3px solid black;
+	padding: 0;
+}
+
+#nav_vertical ul li a {
+	display:block ;
+	text-decoration: none;
+	padding: 0.25em 0.5em;
+	color: black;
+	font-size: 100%;
+	background-color: #FFA500;
+	font-weight: bold;
+}
+#nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
+
+body h1, h2, h3, p, ul {padding:0 16px;}
+
+body h1{font-size: 150%;
+}
+
+
+body p{
+	font-size: 110%;
+	font-weight: 100;
+	}
+	
+#body_img{
+	height:auto;
+	width: 16.06147%;
+	max-width: 154px;
+	min-width: 80px;
+}
+
+
+footer{
+	font-size: 90%;
+	text-align:center;
+	border-top: 2px solid black;
+	padding: 0.5em 1em;
+	line-height: 1px;
+	clear:both;
+    background-image: -webkit-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
 }
