@@ -1,8 +1,11 @@
+*{
+    font-family: 'Pathway Gothic One', sans-serif;
+}
 html{
     background-image: url("../images/leaves.gif");
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
     width: 95%;
     max-width: 960px;
     background-color: #F87217;
