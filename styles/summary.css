@@ -69,7 +69,7 @@ header section h3{
 }
 
 #nav_bar ul li a.current{
-    color: #ed732e;
+    color: #F87217;
 }
 
 #nav_bar ul li a:hover, #nav_bar ul li a:focus{
@@ -223,10 +223,10 @@ footer{
 	padding: 0.5em 1em;
 	line-height: 1px;
 	clear:both;
-	background: -webkit-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: -moz-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: -o-linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
-	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+	background: -webkit-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+	background: -moz-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+	background: -o-linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
+	background: linear-gradient(45deg, black 0%, #F87217 75%, white 100%);
 }
 
 #mobile_menu{
