@@ -2,7 +2,7 @@
 /* tablet landscape and desktop */
 
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 html{
@@ -24,10 +24,10 @@ body>section{
 header{
     border-bottom: 2px solid black;
     padding: 1em 0em;
-    background-image: -webkit-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: -moz-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: -o-linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
-    background-image: linear-gradient(45deg, white 0%, #ed732e 25%, #f8b12c 25%, #382615 15%, #996236 15%, #859D3c 10%, black 100%);
+    background-image: -webkit-linear-gradient(45deg, white 0%, #F87217 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white 0%, #F87217 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white 0%, #F87217 75%, black 100%);
+    background-image: linear-gradient(45deg, white 0%, #F87217 75%, black 100%);
 
 }
 
