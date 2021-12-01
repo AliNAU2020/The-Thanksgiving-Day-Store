@@ -133,7 +133,7 @@ header section h3{
 	padding: 0.25em 0.5em;
 	color: black;
 	font-size: 100%;
-	background-color: green;
+	background-color: brown;
 	font-weight: bold;
 }
 #nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
